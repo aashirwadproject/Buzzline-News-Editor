@@ -1,0 +1,15 @@
+export const NEWS_TYPES = [
+  { label: 'Breaking News', color: '#ff0000' },
+  { label: 'Morning Update', color: '#f59e0b' },
+  { label: 'Afternoon Update', color: '#3b82f6' },
+  { label: 'Evening Update', color: '#6366f1' },
+  { label: 'Election Update', color: '#8b5cf6' },
+  { label: 'Update', color: '#64748b' },
+  { label: 'Highlight', color: '#ec4899' },
+  { label: 'Opinion', color: '#10b981' },
+  { label: 'Big News', color: '#000000' },
+  { label: 'Good News', color: '#22c55e' },
+  { label: 'Bad News', color: '#ef4444' },
+  { label: 'Sports News', color: '#f97316' },
+  { label: 'Entertainment News', color: '#d946ef' },
+] as const;
