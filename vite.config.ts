@@ -15,6 +15,17 @@ export default defineConfig(({mode}) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
+    build: {
+      chunkSizeWarningLimit: 1000,
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            vendor: ['react', 'react-dom', 'motion', 'lucide-react'],
+            genai: ['@google/genai'],
+          },
+        },
+      },
+    },
     server: {
       port: 3000,
       host: '0.0.0.0',

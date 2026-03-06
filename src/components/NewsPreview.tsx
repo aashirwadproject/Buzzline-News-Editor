@@ -55,6 +55,7 @@ export const NewsPreview: React.FC<NewsPreviewProps> = ({
                 alt="News" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
               />
             )
           ) : (
@@ -76,6 +77,7 @@ export const NewsPreview: React.FC<NewsPreviewProps> = ({
                 alt="Buzzline Nepal Logo" 
                 className="w-16 h-16 object-cover rounded-full border-2 border-white/40 shadow-2xl relative z-10"
                 referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
               />
             ) : (
               <BuzzlineLogo className="w-16 h-16 relative z-10 shadow-2xl" />
